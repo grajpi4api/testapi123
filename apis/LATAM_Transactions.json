@@ -1,0 +1,32 @@
+{
+    "api_metadata": {
+        "protocol": "http",
+        "url": "/latam/transfer",
+        "hostname": "*",
+        "cookie": "",
+        "oauth2_access_token": true,
+        "apikey_qs": "",
+        "apikey_header": "",
+        "login_url": "",
+        "enable_blocking": true,
+        "api_mapping": {
+            "internal_url": ""
+        },
+        "api_memory_size": "128mb",
+        "decoy_config":
+        {
+          "decoy_enabled": false,
+          "response_code" : 200,
+          "response_def" : "",
+          "response_message" : "",
+          "decoy_subpaths": [
+          ]
+       },
+      "jwt": {
+        "location": "h:authorization:bearer",
+        "username": "email",
+        "clientid": "id"
+      }
+    }
+}
+
